@@ -4,6 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'errol lloyd'
 SITENAME = u'basic test'
+
+# Necessary for github project page to work, as root is, by default,
+# not '../basic_pelican_test' but '.../'.
 SITEURL = 'http://maegul.github.io/basic_pelican_test'
 
 PATH = 'content'
@@ -11,6 +14,14 @@ PATH = 'content'
 TIMEZONE = 'Australia/Melbourne'
 
 DEFAULT_LANG = u'en'
+
+# ipython notebook plugin 
+MARKUP = ('md', 'ipynb')
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['ipynb']
+
+# Ignore files for content generation ... doesn't seem to work ...??
+IGNORE_FILES = ['.ipynb_*/*']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
