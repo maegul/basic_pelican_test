@@ -7,7 +7,8 @@ SITENAME = u'basic test'
 
 # Necessary for github project page to work, as root is, by default,
 # not '../basic_pelican_test' but '.../'.
-SITEURL = 'http://maegul.github.io/basic_pelican_test'
+#SITEURL = 'http://maegul.github.io/basic_pelican_test'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -21,7 +22,7 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['ipynb']
 
 # Ignore files for content generation ... doesn't seem to work ...??
-IGNORE_FILES = ['.ipynb_*/*']
+#IGNORE_FILES = ['.ipynb_*/*']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
