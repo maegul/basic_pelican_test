@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'errol lloyd'
 SITENAME = u'basic test'
-SITEURL = ''
+SITEURL = 'http://maegul.github.io/basic_pelican_test'
 
 PATH = 'content'
 
