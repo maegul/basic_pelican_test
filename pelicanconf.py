@@ -7,8 +7,10 @@ SITENAME = u'basic test'
 
 # Necessary for github project page to work, as root is, by default,
 # not '../basic_pelican_test' but '.../'.
-#SITEURL = 'http://maegul.github.io/basic_pelican_test'
-SITEURL = ''
+SITEURL = 'http://maegul.github.io/basic_pelican_test'
+
+# Use for local or non-GitHUb builts
+#SITEURL = ''
 
 PATH = 'content'
 
